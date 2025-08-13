@@ -31,6 +31,11 @@ Install additional dependencies
 pip install -r requirement.txt
 ```
 
+A fix for version error
+```
+pip install "huggingface_hub==0.10.1" 
+```
+
 Download pre-trained checkpoints
 ```
 gdown https://drive.google.com/drive/folders/1o8rf2Lq91D_DCq7RqZVyFAP-eMcLOAP2 -O . --folder
